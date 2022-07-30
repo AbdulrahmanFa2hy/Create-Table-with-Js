@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #192a56;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-family: 'Montserrat', sans-serif;
+}
+
+table,tr,td {
+  border: 1px solid white;
+  padding: 6px;
+  color: white;
+
+}
+
+input,button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  transition: all .5s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
